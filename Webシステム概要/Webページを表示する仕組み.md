@@ -261,12 +261,10 @@ htmlはこのような要素を組合せて記述されます。
 図  
 
 
-#### html以外の画面描画時に使用されるファイル  
-
-htmlにはタグ情報の他に、デザインに関する情報を記載したcssと、ふるまいを定義したjavascriptというものが記載されます。  
+#### css、javascript  
 
 画面描画の為にブラウザが使用するものとして、html以外にcss、javascriptと呼ばれるものがあります。  
-
+これらはhtmlとは異なる文法で記述され、htmlの特定の箇所に直接記載されるか、別ファイルとして定義されます。  
 
 - css  
 HTMLの要素をどのように修飾（表示）するかを指示する仕様の一つです。  
@@ -441,9 +439,6 @@ https://developer.mozilla.org/ja/docs/Web/HTTP
 ・MDN URLとは何か  
 https://developer.mozilla.org/ja/docs/Learn/Common_questions/What_is_a_URL
 
-
-・サーバー
-https://wa3.i-3-i.info/word144.html
 
 
 ・tomcat
